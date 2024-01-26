@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { Resend } from 'resend';
 import Email1 from '../components/Email1';
+// import email1 from '../components/'
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 

@@ -3,38 +3,7 @@ import React from "react";
 const Email1 = () => {
   return (
     <>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1, width=device-width" />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap"
-      />
-      <style
-        dangerouslySetInnerHTML={{
-          __html:
-            "\n      body {\n        margin: 0;\n        line-height: normal;\n      }\n    ",
-        }}
-      />
-      <div
-        style={{
-          position: "relative",
-          backgroundColor: "#fbfaf2",
-          width: "100%",
-          overflow: "hidden",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "flex-start",
-          padding: "47px 0px 0px",
-          boxSizing: "border-box",
-          gap: 24,
-          letterSpacing: "normal",
-          textAlign: "center",
-          fontSize: 12,
-          color: "#605f60",
-          fontFamily: "Figtree",
-        }}
-      >
+      <div className="relative bg-[#fbfaf2] !w-full overflow-hidden flex flex-col items-center justify-start pt-[47px] px-0 pb-0 box-border gap-[24px] tracking-[normal] text-center text-[12px] text-[#605f60] font-[Figtree]">
         <div
           style={{
             position: "relative",
@@ -50,8 +19,8 @@ const Email1 = () => {
           style={{
             display: "flex",
             flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent: "center",
             padding: "0px 20px 65px",
           }}
         >
@@ -73,8 +42,8 @@ const Email1 = () => {
             width: 495,
             display: "flex",
             flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent:  "center",
             padding: "0px 20px 15px",
             boxSizing: "border-box",
             maxWidth: "100%",
@@ -117,8 +86,8 @@ const Email1 = () => {
             width: 542,
             display: "flex",
             flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent:  "center",
             padding: "0px 20px 4px",
             boxSizing: "border-box",
             maxWidth: "100%",
@@ -151,8 +120,8 @@ const Email1 = () => {
             width: 272,
             display: "flex",
             flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent:  "center",
             padding: "0px 20px 39px",
             boxSizing: "border-box",
           }}
@@ -192,8 +161,8 @@ const Email1 = () => {
             alignSelf: "stretch",
             display: "flex",
             flexDirection: "row",
-            alignItems: "flex-start",
-            justifyContent: "flex-start",
+            alignItems: "center",
+            justifyContent:  "center",
             boxSizing: "border-box",
             maxWidth: "100%",
           }}
@@ -205,7 +174,7 @@ const Email1 = () => {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              justifyContent: "flex-start",
+              justifyContent:  "center",
               padding: "36px 20px 47px 21px",
               boxSizing: "border-box",
               gap: 12,
@@ -244,8 +213,8 @@ const Email1 = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                alignItems: "flex-start",
-                justifyContent: "flex-start",
+                alignItems: "center",
+                justifyContent:  "center",
                 padding: "0px 27px 0px 0px",
               }}
             >
@@ -254,7 +223,7 @@ const Email1 = () => {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
-                  justifyContent: "flex-start",
+                  justifyContent:  "center",
                   gap: 5,
                 }}
               >
@@ -263,7 +232,7 @@ const Email1 = () => {
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "center",
-                    justifyContent: "flex-start",
+                    justifyContent:  "center",
                     gap: 8,
                   }}
                 >
@@ -295,8 +264,8 @@ const Email1 = () => {
                   style={{
                     display: "flex",
                     flexDirection: "row",
-                    alignItems: "flex-start",
-                    justifyContent: "flex-start",
+                    alignItems: "center",
+                    justifyContent:  "center",
                   }}
                 >
                   <img
@@ -331,7 +300,7 @@ const Email1 = () => {
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
-                justifyContent: "flex-start",
+                justifyContent:  "center",
                 gap: 8,
               }}
             >
